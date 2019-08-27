@@ -3,13 +3,14 @@ package com.ngonimahachi.githubreposearch;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mSearchBoxEditText;
     private TextView mUrlDisplayTextView;
-    private TextView mSearchResultsTextView;
+    private Button mSearchResultsTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
